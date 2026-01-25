@@ -9,7 +9,7 @@ Most loggers are bloated or Node-only. Good Console brings a premium developer e
 ## Installation
 
 ```bash
-npm install good-console
+npm install the-good-console
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install good-console
 ### Basic Example (Node & Browser)
 
 ```typescript
-import { gc } from 'good-console';
+import { gc } from 'the-good-console';
 
 gc.success('Server started on port 3000');
 gc.info('User logged in', { id: 123 });
