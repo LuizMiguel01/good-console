@@ -22,7 +22,11 @@
     "logging",
     "dx"
   ],
-  "author": "",
+  "author": "Delbin George",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/useworkflowapp/good-console.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.7",
