@@ -65,7 +65,7 @@ Add human-readable timestamps to text output.
 ```typescript
 gc.timestamps(true);
 gc.info('Hello');
-// Output: [10:30:45 AM] [file:line] [INFO] ::: Hello
+// Output: [10:30:45 AM] [INFO] ::: Hello
 ```
 
 #### Automatic JSON Parsing

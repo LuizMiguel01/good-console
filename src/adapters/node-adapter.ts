@@ -39,26 +39,22 @@ export class NodeAdapter implements IAdapter {
     }
 
     const color = TYPE_COLORS[type] || ANSI.white;
-    const typeLabel = type.toUpperCase();
-    
+    // Padded to 7 chars (SUCCESS is 7)
+    const typeLabel = type.toUpperCase().padEnd(7);
+
     // [TIMESTAMP]
     let timestamp = '';
     if (meta.config?.timestamps) {
-       const timeStr = new Date(meta.timestamp).toLocaleTimeString();
-       timestamp = `${ANSI.dim}[${timeStr}]${ANSI.reset} `;
-    }
-    
-    // [FILE:LINE]
-    let location = '';
-    if (meta.file) {
-      location = `${ANSI.dim}[${formatFilePath(meta.file)}:${meta.line}]${ANSI.reset} `;
+      const timeStr = new Date(meta.timestamp).toLocaleTimeString();
+      timestamp = `${ANSI.dim}${timeStr}${ANSI.reset}  `;
     }
 
-    // [TYPE]
-    const label = `${ANSI.bold}${color}[${typeLabel}]${ANSI.reset}`;
+    // TYPE
+    const label = `${ANSI.bold}${color}${typeLabel}${ANSI.reset}`;
+    const separator = `${ANSI.dim}›${ANSI.reset}`;
 
-    // ::: message
-    const output = `${timestamp}${location}${label} ::: ${message}`;
+    // Output: 10:00:00  INFO    › message
+    const output = `${timestamp}${label} ${separator} ${message}`;
 
     process.stdout.write(output + '\n');
   }
